@@ -1,4 +1,3 @@
-# TNM040
 # TNM040 UNI COURSE: TND002 - Communication and User Interfaces, 2019 at LiU.
 
 Mandatory group project within the course named OddsOn. 
