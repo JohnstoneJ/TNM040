@@ -1,0 +1,73 @@
+.container {
+  
+  width:auto;
+
+  
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.box{
+  margin: 1vh;
+  border: 15px solid rgb(47,93,157);
+  padding:2vh;
+
+
+}
+
+#bar{
+  animation: 1s linear 1s slidein normal;
+  height: 15px;
+  background-color:rgb(47,93,157);
+  text-align: center;
+}
+  .box .flex1{
+    flex: 1 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex:left;
+
+}
+  .box .flex2{
+    flex: 1 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
